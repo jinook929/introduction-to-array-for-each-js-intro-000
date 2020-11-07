@@ -4,6 +4,8 @@ function doToElementsInArray(arr, myFunc) {
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(arr, item) {
+function changeCompletely(item, index, array) {
   item
 }
+
+doToElementsInArray(animals, changeCompletely);
