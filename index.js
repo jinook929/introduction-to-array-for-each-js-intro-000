@@ -5,7 +5,5 @@ function doToElementsInArray(arr, myFunc) {
 
 // Add your changeCompletely() function here:
 function changeCompletely(item, index, array) {
-  item
+  array[index] = `${item}!!!`;
 }
-
-doToElementsInArray(animals, changeCompletely);
